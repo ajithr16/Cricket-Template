@@ -1,0 +1,468 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>responsive</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-baseball"></i> CricketWorld</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cricket ball.jpg" alt="" width=100px>
+                <div class="content">
+                    <h3>SG Ball</h3>
+                    <span class="price">&#8377 500/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/cricket bat.png" alt="" width=100px>
+                <div class="content">
+                    <h3>SG Bat</h3>
+                    <span class="price">&#8377 2000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/stumps.png" alt="" width=100px>
+                <div class="content">
+                    <h3>SG Bails</h3>
+                    <span class="price">&#8377 1000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total :&#8377 3500/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forgot password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>World Class <span>Kits and Accessories</span> for You!</h3>
+            <p>Better Kits for Better Players! </p>
+            <a href="#" class="btn">Grab now</a>
+        </div>
+
+    </section>
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> our <span>features</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/making.jpg" alt="">
+                <h3>Original And Handmade</h3>
+                <p>Kit Makers Since 1942</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/delivery.jpg" alt="">
+                <h3>free home delivery</h3>
+                <p>Order from any geographical locations. Our responsibility to reach you!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/debit cards.jpg" alt="">
+                <h3>easy payments</h3>
+                <p>All credit and Debit cards are accepted!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/sg-kit.png" alt="">
+                    <h3>SG-Kit</h3>
+                    <div class="price">&#8377 12000</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/kookaburra.png" alt="">
+                    <h3>Kooka Burra Kit</h3>
+                    <div class="price"> &#8377 7999</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/cricket stumps.png" alt="">
+                    <h3>Cricket Stumps</h3>
+                    <div class="price"> &#8377 2000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/ball.jpg" alt="">
+                    <h3>cork ball</h3>
+                    <div class="price"> &#8377 500</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/batting gloves.png" alt="">
+                    <h3>Batting Gloves</h3>
+                    <div class="price"> &#8377 600 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/keepinggloves.png" alt="">
+                    <h3>Keeping Gloves</h3>
+                    <div class="price"> &#8377 1000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/legpads.png" alt="">
+                    <h3>Leg Pads</h3>
+                    <div class="price"> &#8377 1200 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/helmet.png" alt="">
+                    <h3>green lemon</h3>
+                    <div class="price"> &#8377 2100 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span>categories</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/bats.png" alt="">
+                <h3>Cricket Bats</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/kits.png" alt="">
+                <h3>Cricket Kits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/jersey.png" alt="">
+                <h3>Cricket Jersey</h3>
+                <p>upto 25% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/spikes.png" alt="">
+                <h3>Cricket Shoes (spikes)</h3>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/cartoon.png" alt="">
+                    <p>Awesome Product Quality! Every Penny Worthy..</p>
+                    <h3>Dheeraj S</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/dope.png" alt="">
+                    <p>Dope Products!.... Im gonna smoke ma money!!! Peace buyers... BUY here. want smokinnn things also</p>
+                    <h3>Drug DP</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/motivation.png" alt="">
+                    <p>Guys...! Products are Syk. I batted for 3 hrs. My bat is My love. Dont love and Cry. Just Bat and Die</p>
+                    <h3>Motivation Dhanush</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/look.png" alt="">
+                    <p>No Review...! Just Lookuuu!!</p>
+                    <h3>Dhipendra Babu L</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/cricketer.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st Sept, 2022</a>
+                    </div>
+                    <h3>CRICKET WORLD</h3>
+                    <p>We take Your Dream into reality!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/dhoni.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 20th Aug, 2022 </a>
+                    </div>
+                    <h3>CRICKET WORLD</h3>
+                    <p>International Cricket Kit Sponsorers For Mulit-National Teams</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/blog.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 30th April, 2022 </a>
+                    </div>
+                    <h3>CRICKET WORLD</h3>
+                    <p>Largest Cricket Accessories available. Great Legacy </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Cricket World <i class="fas fa-baseball"></i> </h3>
+                <p>World Class Kits and Accessories For YOu!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +7989821282 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +91 9035290743 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> webdesigner@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Bengaluru, India - 560078 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> Mr.CODER </span> | all rights reserved </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
